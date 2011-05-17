@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_pizzaria_domain_Pizza" object="${pizza}" path="/pizzas" z="G9XVATNEdgrTaqQbGu+PGhMOty0=">
+        <field:display field="nome" id="s_pizzaria_domain_Pizza_nome" object="${pizza}" z="uxV8HCivnLteusqn2fq5+LryLoE="/>
+        <field:display field="preco" id="s_pizzaria_domain_Pizza_preco" object="${pizza}" z="6oP90mJc5R7LzHxOWYGpe5pNu9Q="/>
+        <field:display field="coberturas" id="s_pizzaria_domain_Pizza_coberturas" object="${pizza}" z="AzNS3P3BQN9rukWa5UPx53mXFRI="/>
+        <field:display field="massa" id="s_pizzaria_domain_Pizza_massa" object="${pizza}" z="h7lwH0K4vBw0j0CFmzGCZXigMT4="/>
+        
+        
+        
+    </page:show>
+</div>

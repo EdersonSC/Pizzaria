@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_pizzaria_domain_Pedido" object="${pedido}" path="/pedidoes" z="nWTCzcomhFjq2FdyAsmLvCPTsfw=">
+        <field:display field="nome" id="s_pizzaria_domain_Pedido_nome" object="${pedido}" z="eHpjSkwlO0P46M5upQFkgj1cbGQ="/>
+        <field:display field="endereco" id="s_pizzaria_domain_Pedido_endereco" object="${pedido}" z="K12UF+Haz5yKmBaYY5Pbf1oNLyU="/>
+        <field:display field="pizzas" id="s_pizzaria_domain_Pedido_pizzas" object="${pedido}" z="ItozLNd62Q5FtE+iBpDXMYaDtgI="/>
+        <field:display field="total" id="s_pizzaria_domain_Pedido_total" object="${pedido}" z="jaNnjxPt2b+L9fUZMsBxxnt1MVI="/>
+        <field:display date="true" dateTimePattern="${pedido_dataentrega_date_format}" field="dataEntrega" id="s_pizzaria_domain_Pedido_dataEntrega" object="${pedido}" z="PDftCe4MNBrzy1FZvl0HFNSDKLU="/>
+    </page:show>
+</div>

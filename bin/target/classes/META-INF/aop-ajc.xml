@@ -1,0 +1,26 @@
+<aspectj>
+<aspects>
+<aspect name="pizzaria.domain.Cobertura_Roo_Configurable"/>
+<aspect name="pizzaria.domain.Pedido_Roo_JavaBean"/>
+<aspect name="pizzaria.domain.Cobertura_Roo_JavaBean"/>
+<aspect name="pizzaria.web.CoberturaController_Roo_Controller"/>
+<aspect name="pizzaria.domain.Massa_Roo_Configurable"/>
+<aspect name="pizzaria.domain.Pizza_Roo_Configurable"/>
+<aspect name="pizzaria.domain.Massa_Roo_ToString"/>
+<aspect name="pizzaria.domain.Pizza_Roo_JavaBean"/>
+<aspect name="pizzaria.domain.Massa_Roo_JavaBean"/>
+<aspect name="pizzaria.domain.Cobertura_Roo_Entity"/>
+<aspect name="pizzaria.domain.Pedido_Roo_Entity"/>
+<aspect name="pizzaria.web.MassaController_Roo_Controller"/>
+<aspect name="pizzaria.web.PizzaController_Roo_Controller"/>
+<aspect name="pizzaria.domain.Pizza_Roo_Entity"/>
+<aspect name="pizzaria.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="pizzaria.web.PedidoController_Roo_Controller"/>
+<aspect name="pizzaria.domain.Massa_Roo_Entity"/>
+<aspect name="pizzaria.domain.Cobertura_Roo_ToString"/>
+<aspect name="pizzaria.domain.Pedido_Roo_Configurable"/>
+<aspect name="pizzaria.domain.Pedido_Roo_ToString"/>
+<aspect name="pizzaria.domain.Pizza_Roo_ToString"/>
+</aspects>
+</aspectj>
+

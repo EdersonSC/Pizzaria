@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_pizzaria_domain_Pedido" items="${pedidoes}" z="GUlhJrdBM8q/WtctTx9qYqbEsF0=">
+        <table:table data="${pedidoes}" id="l_pizzaria_domain_Pedido" path="/pedidoes" z="tyEs9tRn/LcD79a1pchiFnlWbsU=">
+            <table:column id="c_pizzaria_domain_Pedido_nome" property="nome" z="lSb67DeCgOsfIyJIsuh5AqpdjoY="/>
+            <table:column id="c_pizzaria_domain_Pedido_endereco" property="endereco" z="bxaK3kAlJCtjfXJ7jwXWAzbDKyA="/>
+            <table:column id="c_pizzaria_domain_Pedido_pizzas" property="pizzas" z="p3pifr239qlRnYq7poAiET9Yg1w="/>
+            <table:column id="c_pizzaria_domain_Pedido_total" property="total" z="6dqAMMDFQkjGOS5zwz2DcmGAc1A="/>
+            <table:column id="c_pizzaria_domain_Pedido_dataEntrega" property="dataEntrega" z="NtKzL8cVocuCaxiSKvPYI/41ZnU="/>
+        </table:table>
+    </page:list>
+</div>

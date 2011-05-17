@@ -1,0 +1,33 @@
+// Spring Roo 1.1.1.RELEASE [rev 156ccd6] log opened at 2011-04-26 08:31:18
+project --topLevelPackage pizzaria --projectName Pizzaria --java 6
+// Spring Roo 1.1.1.RELEASE [rev 156ccd6] log closed at 2011-04-26 08:31:23
+// Spring Roo 1.1.1.RELEASE [rev 156ccd6] log opened at 2011-04-26 08:31:27
+hint
+persistence setup --database HYPERSONIC_PERSISTENT --provider ECLIPSELINK 
+hint
+entity --class ~.domain.Cobertura
+hint
+field string --fieldName nome --notNull --sizeMin 2 --unique yes 
+entity --class ~.domain.Massa
+field string --fieldName nome --notNull --sizeMin 2 --unique yes
+entity --class ~.domain.Pizza
+field string --fieldName nome --notNull --sizeMin 2 --unique yes
+field number --fieldName preco --type java.lang.Float 
+field set --fieldName coberturas --type ~.domain.Cobertura
+field reference --fieldName massa --type ~.domain.Massa
+field string --fieldName endereco --notNull 
+field number --fieldName total --type java.lang.Float
+// [failed] field string --fieldName nome --notNull 
+field date --fieldName dataEntrega --type java.util.Date
+perform eclipse 
+controller all --package ~.web
+controller all --package ~.web
+controller all --package ~.web
+entity --class ~.domain.Pedido
+field string --fieldName nome --notNull 
+field string --fieldName endereco --notNull 
+field set --fieldName pizzas --type ~.domain.Pizza
+field number --fieldName total --type java.lang.Float
+field date --fieldName dataEntrega --type java.util.Date
+controller all --package ~.web
+security setup

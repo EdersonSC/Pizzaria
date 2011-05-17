@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_pizzaria_domain_Pizza" items="${pizzas}" z="UNd2IMQuIyvu6ParkuwJ8qkXawU=">
+        <table:table data="${pizzas}" id="l_pizzaria_domain_Pizza" path="/pizzas" z="Cf51qkd/45n+VjX+s9Q9Vc7caEk=">
+            <table:column id="c_pizzaria_domain_Pizza_nome" property="nome" z="4bg7u+q1jLYnO5hNbvxedAgTzds="/>
+            <table:column id="c_pizzaria_domain_Pizza_preco" property="preco" z="ITjYi9BQSM37bcm61oXPKyP7CAw="/>
+            <table:column id="c_pizzaria_domain_Pizza_coberturas" property="coberturas" z="cNXdOiXrKa2cGQkw0XVE6WRWNLA="/>
+            <table:column id="c_pizzaria_domain_Pizza_massa" property="massa" z="GNnfqCp5A4+130Bv4RaLT92QKnM="/>
+            
+            
+        </table:table>
+    </page:list>
+</div>
